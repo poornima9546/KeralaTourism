@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Tourism2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <div class="top-bar">
+          <ul>
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+          </ul>
+    </div>
+
+    <!-- Responsive Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./KT.jpeg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse justify-content-center navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./districts.html">Districts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        Login
+                    </button></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./Signup.html"><button type="button" class="btn btn-success">Signup</button></a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </nav>
+                    <!-- Modal -->
+                  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form action="./index.html">
+                            <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Sign In</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+           
+    <!---End of navbar-->
+
+    <div class="container">
+        <h3 class="text-center fw-bold py-2">About Kollam</h3>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6 col-md-6 mb-4">
+                <p>Kollam also known by its former name Quilon is an ancient seaport and city on the Malabar Coast of India bordering the Laccadive Sea, which is a part of the Arabian Sea. It is 71 km (44 mi) north of the state capital Thiruvananthapuram.The city is on the banks of Ashtamudi Lake and the Kallada river.Kollam is the fourth largest city in Kerala and is known for cashew processing and coir manufacturing.It is the southern gateway to the Backwaters of Kerala and is a prominent tourist destination. Kollam is one of the most historic cities with continuous settlements in India.Geographically, Quilon formation seen around coastal cliffs of Ashtamudi Lake, represent sediments laid down in the Kerala basin that existed during Mio-Pliocene times. </p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63067.785955503045!2d76.55387346730399!3d8.904060034887113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05fc5bdda9c621%3A0x8bf03195267372f7!2sKollam%2C%20Kerala!5e0!3m2!1sen!2sin!4v1701697370185!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h3 class="text-center fw-bold py-4">Top Tourist Attractions</h3>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem; height: 500px;">
+                    <img src="./Images/AshtamudiLake.png" class="card-img-top" alt="..." style="height: 350px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Ashtamudi Lake</h5>
+                      <p>Ashtamudi Lake is situated in the historic town of Kollam, which is often referred to as the "Gateway to the Backwaters."It is the second-largest estuarine system in Kerala, comprising multiple channels, branches, and backwaters.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem; height: 500px;">
+                    <img src="./Images/Thenmalaecotourism.jpeg" class="card-img-top" alt="..." style="height: 350px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Thenmala Eco-Tourism</h5>
+                      <p>Thenmala is situated at the foothills of the Western Ghats and is known for its lush greenery, dense forests, and diverse flora and fauna.The Butterfly Safari Park in Thenmala is a major attraction where visitors can witness a variety of colorful butterflies in a natural setting.</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="./Images/sasthamkotta-backwaters02-1567327190.jpg" class="card-img-top" alt="..." style="height: 235px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Sasthamkotta Lake</h5>
+                      <p>Sasthamkotta Lake is the largest natural freshwater lake in Kerala, spread over an area of about 375 hectares.The lake is fed by several small rivers and streams, and it is not directly connected to the sea. It is primarily rain-fed.</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="./Images/palaruvi-DSC01497_28072018122315.jpg" class="card-img-top" alt="..." style="height: 237px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Palaruvi Waterfall</h5>
+                      <p>Palaruvi waterfall is known for its impressive height. Palaruvi, which means "stream of milk" in the local language, descends from a height of about 300 feet (91 meters).Palaruvi Waterfall is not only a scenic attraction but also a place of cultural and natural significance. </p>
+                    </div>
+                  </div>
+                </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="./Images/Thangassseri_Lighthouse.jpg" class="card-img-top" alt="..." style="height: 238px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Thangassery Light House</h5>
+                      <p>Thangassery Lighthouse is situated in Thangassery, which is a part of Kollam city in the state of Kerala, India.Thangassery is known for its rich historical and cultural heritage, including remnants of Portuguese and Dutch settlements.</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="./Images/Kollam Adventur Park.jpeg" class="card-img-top" alt="..." style="height: 238px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Kollam Adventure Park</h5>
+                      <p>Asramam Adventure Park is an urban park in the core Kollam city of Kerala state. It was opened after 1980, on 48 acres (19 ha) of city-owned land.Located beside the Kerala's pride, backwaters of Ashtamudi, this place popularly known as Asramam Picnic Village. It is the main centre of recreational activities in Kollam city.</p>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="bg-primary text-light text-center py-3">
+        <div class="container">
+            <p>&copy; 2023 keralatourism. All rights reserved.</p>
+        </div>
+      </footer>
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+  </html> 

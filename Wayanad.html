@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Tourism2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <div class="top-bar">
+          <ul>
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+          </ul>
+    </div>
+
+    <!-- Responsive Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./KT.jpeg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse justify-content-center navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./districts.html">Districts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        Login
+                    </button></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./Signup.html"><button type="button" class="btn btn-success">Signup</button></a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </nav>
+                    <!-- Modal -->
+                  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form action="./index.html">
+                            <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Sign In</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+           
+    <!---End of Navbar-->
+
+    <div class="container">
+        <h3 class="text-center fw-bold py-2">About Wayanad</h3>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6 col-md-6 mb-4">
+                <p>Wayanad is a district in the north-east of the Indian state of Kerala, with administrative headquarters at the municipality of Kalpetta. It is the only plateau in Kerala.[7] The Wayanad Plateau forms a continuation of the Mysore Plateau, the southern portion of Deccan Plateau which links the Western Ghats with the Eastern Ghats.Wayanad district is bordered by Karnataka (Kodagu,Chamarajanagar and Mysore districts) to the north and north-east, Tamil Nadu (Nilgiris district) to the south-east, Malappuram to the south, Kozhikode to the south-west and Kannur to the north-west.Historians believe that the human settlements existed in these parts for at least ten centuries before Christ. Much evidence of New Stone Age civilisation can be seen in the hills throughout the present-day Wayanad district. </p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125531.64774480587!2d76.14084838951408!3d10.511376971497514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba60cf91a9c5f0d%3A0x71dd4da2e1d3e46f!2sWayanad%2C%20Kerala!5e0!3m2!1sen!2sin!4v1701700563480!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h3 class="text-center fw-bold py-4">Top Tourist Attractions</h3>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem; height: 500px;">
+                    <img src="./Images/edakkal-caves-featured.jpg" class="card-img-top" alt="..." style="height: 350px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Edakkal Caves</h5>
+                      <p>The Edakkal caves are two natural caves at a remote location at Edakkal, 25 km (15.5 mi) from Kalpetta in the Wayanad district of Kerala in India. Historian Raghava Varier of the Kerala State Archaeology Department identified a depiction as "man with jar cup" that is the most distinct motif of the Indus valley civilization. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem; height: 500px;">
+                    <img src="./Images/Chembra peak.webp" class="card-img-top" alt="..." style="height: 350px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Chembra Peak</h5>
+                      <p>Chembra Peak (Chembra Mala) is a mountain in the state of Kerala, India, with an elevation of 2,100 m (6,890 ft) above sea level.[2] The highest peak in the Wayanad hills and one of the highest peaks in the Western Ghats, adjoining the Nilgiri Hills and Vellarimala.</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem; height: 500px;">
+                    <img src="./Images/kuruva-island-wayanad-tourism-entry-fee-timings-holidays-reviews-header.jpg" class="card-img-top" alt="..." style="height: 235px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Kuruva Island</h5>
+                      <p>Kuruva Island comprises three densely wooded uninhabited islands and a few submergible satellite islands, which lies on the banks of the tributaries of Kabini River in the Wayanad district, Kerala, India. It is uninhabited island, which is home to rare species of birds, orchids, herbal plants etc.</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem; height: 500px;">
+                    <img src="./Images/Wayanad_Meenmutty_Waterfalls.jpg" class="card-img-top" alt="..." style="height: 237px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Meenmutty Waterfalls</h5>
+                      <p>The Meenmutty Waterfalls are located near the Ponmudi hill station, Thiruvananthapuram district and Agastya Mala Biosphere reserves.This waterfalls is situated along the upper riparian course of Vamanapuram River.</p>
+                    </div>
+                  </div>
+                </div>
+        </div>
+    </div>
+    <footer class="bg-primary text-light text-center py-3">
+        <div class="container">
+            <p>&copy; 2023 keralatourism. All rights reserved.</p>
+        </div>
+      </footer>
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+  </html> 

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Tourism2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <div class="top-bar">
+          <ul>
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+          </ul>
+    </div>
+
+    <!-- Responsive Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./KT.jpeg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse justify-content-center navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./districts.html">Districts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        Login
+                    </button></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./Signup.html"><button type="button" class="btn btn-success">Signup</button></a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </nav>
+                    <!-- Modal -->
+                  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form action="./index.html">
+                            <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Sign In</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+           
+    <!---End of Navbar-->
+
+    <div class="container">
+        <h3 class="text-center fw-bold py-2">About Kottayam</h3>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6 col-md-6 mb-4">
+                <p>Kottayam is a city in the Indian state of Kerala, flanked by the Western Ghats on the east and the Vembanad Lake and paddy fields of Kuttanad on the west. It is the district headquarters of Kottayam district, located in south-west Kerala. Kottayam is located in the basin of the Meenachil River at an average elevation of 3 metres (9.8 ft) above sea level, and has a moderate climate. It is located approximately 155 kilometres (96 mi) north of the state capital Thiruvananthapuram. Kottayam has an average elevation of 3 metres (9.8 ft) above sea level.[11] It is situated in the basin of the Meenachil River and in the basin of the Vembanad backwaters, which are formed from several streams in the Western Ghats of the Idukki district. The city is situated near the inland estuary of Meenachil river where it empties into the Vembanad lake in Kumarakom.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62944.119586055735!2d76.47939281959772!3d9.594623365582418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b062ba16c6b435f%3A0xbe2b02f68f8dd06e!2sKottayam%2C%20Kerala!5e0!3m2!1sen!2sin!4v1701684542229!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h3 class="text-center fw-bold py-4">Top Tourist Attractions</h3>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem; height: 500px;">
+                    <img src="./Images/Marmala waterfalls.jpg" class="card-img-top" alt="..." style="height: 350px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Marmala Waterfall</h5>
+                      <p>Marmala Waterfall is situated in the Marmala village, which is part of the Wagamon hill station in the Idukki district of Kerala. Marmala Waterfall is known for its impressive height, and the water cascades down through rocky terrain.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem; height: 500px;">
+                    <img src="./Images/Kottathavalam.jpg" class="card-img-top" alt="..." style="height: 350px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Kottathavalam</h5>
+                      <p>Kottathavalam is a place of archaeological interest at the legends says that the Royal Family of Madurai would ascend a rock cut path to take rest in this ancient cave. </p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="./Images/Vembanadlake.jpg" class="card-img-top" alt="..." style="height: 235px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Vembanad Lake</h5>
+                      <p>Vembanad is the longest lake in India and the largest lake in the state of Kerala. It is one of the famous backwater lakes in Kerala and is known for its scenic beauty and diverse ecosystem. Vembanad Lake spans several districts, including Alappuzha, Kottayam, and Ernakulam.</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="./Images/Aruvikkuzhi-waterfalls.jpg" class="card-img-top" alt="..." style="height: 237px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Aruvikkuzhi Waterfalls</h5>
+                      <p>The waterfall is known for its natural beauty and serene surroundings. It is a popular spot for nature lovers and tourists seeking a peaceful retreat.The water flows down a rocky terrain, creating small pools at different levels.The best time to visit is during the monsoon season when the waterfall is in its full glory.</p>
+                    </div>
+                  </div>
+                </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="./Images/Ettumanoor_Mahadeva_Temple.jpg" class="card-img-top" alt="..." style="height: 238px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Ettumanoor Mahadeva Temple</h5>
+                      <p>Ettumanoor Mahadeva Temple is a prominent Hindu temple dedicated to Lord Shiva, located in the town of Ettumanoor in the Kottayam district of Kerala, India. The temple is adorned with mural paintings that depict various episodes from Hindu mythology. </p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="./Images/kumarakom-backwaters39_a.jpeg" class="card-img-top" alt="..." style="height: 238px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Kumarakom Backwaters</h5>
+                      <p>Kumarakom is a beautiful village in the Kottayam district of Kerala, India, known for its enchanting backwaters and serene landscapes. The backwaters of Kumarakom are a popular tourist destination, offering a tranquil and picturesque escape.</p>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="bg-primary text-light text-center py-3">
+        <div class="container">
+            <p>&copy; 2023 keralatourism. All rights reserved.</p>
+        </div>
+      </footer>
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+  </html> 

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Tourism2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <div class="top-bar">
+          <ul>
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+          </ul>
+    </div>
+
+    <!-- Responsive Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./KT.jpeg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse justify-content-center navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./districts.html">Districts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        Login
+                    </button></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./Signup.html"><button type="button" class="btn btn-success">Signup</button></a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </nav>
+                    <!-- Modal -->
+                  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form action="./index.html">
+                            <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Sign In</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+           
+    
+    <!---End of navbar-->
+
+    <div class="container">
+        <h3 class="text-center fw-bold py-2">About Ernakulam</h3>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6 col-md-6 mb-4">
+                <p>Ernakulam is the central business district of the city of Kochi, Kerala, India. It is the namesake of Ernakulam district. The eastern part of Kochi city is mainly known as Ernakulam, while the western part of it after the Venduruthy Bridge is called as Western Kochi.Ernakulam is situated on the southwest coast of India, along the Arabian Sea. It is part of the larger Kochi Metropolitan Area. The city is well-connected by water, road, and rail.The city is known for its cultural diversity and is a melting pot of various communities. It has a rich history of trade and cultural exchange due to its strategic location.Ernakulam offers a vibrant shopping experience with traditional markets like Broadway and modern shopping malls.Ernakulam reflects the unique blend of historical charm and modern development, making it a compelling destination for both tourists and business endeavors. </p>
+            </div>
+            <div class="col-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125745.78609835147!2d76.22589128142933!3d9.970864495142314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d08f976f3a9%3A0xe9cdb444f06ed454!2sErnakulam%2C%20Kerala!5e0!3m2!1sen!2sin!4v1701687223364!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h3 class="text-center fw-bold py-4">Top Tourist Attractions</h3>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem; height: 500px;">
+                    <img src="./Images/dutch-palace-800x400.jpg" class="card-img-top" alt="..." style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Mattancherry Palace (Dutch Palace)</h5>
+                      <p>Mattancherry Palace, also known as the Dutch Palace.is a historical palace located in the Mattancherry region of Kochi (Cochin), Kerala, India. It is a prominent landmark and a popular tourist attraction that reflects the rich history and cultural heritage of Kerala. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem; height: 500px;">
+                    <img src="./Images/Fortkochibeach.jpeg" class="card-img-top" alt="..." style="height: 230px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Fort Kochi Beach</h5>
+                      <p>Fort Kochi Beach is a popular destination situated in the Fort Kochi area of Kochi.The beach area holds historical significance as it was a prominent port for trade and commerce during the colonial era.</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="./Images/jewish-synagogue.webp" class="card-img-top" alt="..." style="height: 240px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Jewish Synagogue</h5>
+                      <p>The Jewish Synagogue, also known as the Paradesi Synagogue or Mattancherry Synagogue, is a historic place of worship located in the Jew Town area of Mattancherry in Kochi.The synagogue features a blend of Jewish, Indian, and Dutch architectural styles.</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="./Images/Bolgattypalace.jpg" class="card-img-top" alt="..." style="height: 237px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Bolgatty Palace</h5>
+                      <p>Bolgatty Palace is a historic palace located on Bolgatty Island in Kochi, Kerala, India. Bolgatty Palace has a rich history dating back to 1744 when it was built by the Dutch colonialists. Later, it became the residence of the British Governors during the British Raj in India.</p>
+                    </div>
+                  </div>
+                </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="./Images/Hill_Palace_Museum.jpg" class="card-img-top" alt="..." style="height: 238px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Hill Palace Museum</h5>
+                      <p>Hill Palace Museum is a prominent archaeological museum located in Tripunithura, near Kochi.The architecture of Hill Palace reflects a blend of traditional Kerala style and colonial influences. The palace is surrounded by extensive grounds with well-maintained gardens.</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="./Images/cherai-beach-3 (1).jpg" class="card-img-top" alt="..." style="height: 238px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bold">Cherai Beach</h5>
+                      <p>Cherai Beach is a beautiful and popular beach located in the Cherai village of Vypin Island, near Kochi.Cherai Beach is not just a destination for those seeking a relaxing beach experience but also for nature lovers who appreciate the combination of beach, backwaters, and greenery.</p>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="bg-primary text-light text-center py-3">
+        <div class="container">
+            <p>&copy; 2023 keralatourism. All rights reserved.</p>
+        </div>
+      </footer>
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+  </html> 
