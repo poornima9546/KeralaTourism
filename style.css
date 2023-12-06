@@ -17,7 +17,7 @@ a, a:hover{
     align-items: center;
     justify-content: space-between;
     padding: 10px 25px;
-    background: rgb(39, 109, 241);
+    background: #0c52de;
 }
 
 .top-bar ul{
@@ -40,12 +40,12 @@ a, a:hover{
 .navbar-nav .nav-item .nav-link {
     color: #036e21;
     font-size: 20px;
-    font-weight: 900; /* Replace with your desired color code */
+    font-weight: 900; 
 }
 
-/* Change color of navigation links on hover (optional) */
+
 .navbar-nav .nav-item .nav-link:hover {
-    color: #ff7700; /* Replace with your desired hover color code */
+    color: #ff7700; /
 }
 
 .navbar-nav .nav-item {
