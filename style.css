@@ -59,8 +59,8 @@ a, a:hover{
 .logo{
     flex: 1;
 }
-#About h1{
-    color: #000;
+#About h2{
+    color: rgb(7, 7, 120);
 }
 
 .card-body h5{
@@ -71,7 +71,7 @@ a, a:hover{
 }
 
 .Heading{
-    color:  #000;
+    color: rgb(7, 7, 120);
 }
 .logo{
     display: flex;
