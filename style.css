@@ -23,6 +23,15 @@ a, a:hover{
 .top-bar ul{
     list-style: none;
     display: flex;
+    justify-content: space-between;
+}
+
+.top-bar li{
+    margin-right: 10px;
+}
+
+.top-bar ion-icon{
+    font-size: 24px;
 }
 
 .top-bar{
@@ -38,24 +47,28 @@ a, a:hover{
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: #24CD6D;
+    color: #0bb254;
     font-size: 20px;
     font-weight: 900; 
 }
 
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #0055ff; /
+    color: #890f2b; /
 }
 
-.navbar-nav .nav-item {
-    margin-right: 10px;
-}
 
 .navbar-nav .nav-link {
     font-weight: lighter;
 }
 
+.nav-item{
+    margin-right: 70px;
+}
+
+.nav-link{
+    padding: 10px;
+}
 .logo{
     flex: 1;
 }
