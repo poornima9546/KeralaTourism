@@ -38,14 +38,14 @@ a, a:hover{
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: #036e21;
+    color: #24CD6D;
     font-size: 20px;
     font-weight: 900; 
 }
 
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #ff7700; /
+    color: #0055ff; /
 }
 
 .navbar-nav .nav-item {
@@ -60,7 +60,8 @@ a, a:hover{
     flex: 1;
 }
 #About h2{
-    color: rgb(7, 7, 120);
+    color: #24CD6D;
+    font-weight: 900;
 }
 
 .card-body h5{
@@ -70,8 +71,10 @@ a, a:hover{
     color: rgb(22, 22, 146);
 }
 
-.Heading{
-    color: rgb(7, 7, 120);
+span{
+    color: #24CD6D;
+    font-size: 23px;
+    font-weight: 900;
 }
 .logo{
     display: flex;
