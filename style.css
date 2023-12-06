@@ -77,6 +77,14 @@ a, a:hover{
     font-weight: 900;
 }
 
+body {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
 .card-body h5{
     color: rgb(7, 7, 120);
 }
@@ -122,6 +130,7 @@ img.slide{
 .card {
     margin-left: 40px; /* Adjust the value to your preference */
 }
+
 
 @media screen and (max-width: 600px) 
     nav{
